@@ -111,13 +111,13 @@
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pokemon-pre-loved"
+            "collection": "condition-5"
           }
         },
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "condition-4"
+            "collection": "pokemon-condition-4"
           }
         },
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-2": {
@@ -133,9 +133,9 @@
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-2"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Shop By Condition",
         "heading_size": "h1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "",
         "show_view_all": false,
