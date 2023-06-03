@@ -56,7 +56,7 @@
           "settings": {
             "heading": "Condition",
             "icon": "clipboard",
-            "content": "{{ block.repeater.excellent | metafield_tag }}{{ block.repeater.excellent | metafield_tag }}",
+            "content": "{{ block.repeater.excellent | metafield_tag }}",
             "page": ""
           }
         },
