@@ -117,20 +117,13 @@
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pokemon-condition-4"
-          }
-        },
-        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
+            "collection": "condition-4"
           }
         }
       },
       "block_order": [
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-0",
-        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1",
-        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-2"
+        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1"
       ],
       "settings": {
         "title": "Shop By Condition",
