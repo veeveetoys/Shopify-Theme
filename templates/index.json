@@ -119,11 +119,32 @@
           "settings": {
             "collection": "condition-4"
           }
+        },
+        "0d8f5322-036a-4a09-b2e5-a8faf823ef38": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "b8006753-56b7-464a-a827-43a0d1005156": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "18160396-d463-4bfe-b66a-90d5d0fc2920": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "condition-1"
+          }
         }
       },
       "block_order": [
         "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-0",
-        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1"
+        "template--19193881395490__34f23dde-7af8-47c9-828f-cf651191675f-16857873582d858680-1",
+        "0d8f5322-036a-4a09-b2e5-a8faf823ef38",
+        "b8006753-56b7-464a-a827-43a0d1005156",
+        "18160396-d463-4bfe-b66a-90d5d0fc2920"
       ],
       "settings": {
         "title": "Shop By Condition",
