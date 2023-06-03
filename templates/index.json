@@ -79,8 +79,11 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "Pokemon",
+        "title": "Newest Products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -101,8 +104,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 36
+        "padding_top": 8,
+        "padding_bottom": 48
       }
     },
     "34f23dde-7af8-47c9-828f-cf651191675f": {
