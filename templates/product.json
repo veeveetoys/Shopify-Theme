@@ -100,7 +100,7 @@
         "share"
       ],
       "custom_css": [
-        ".rte li {list-style: none;"
+        ".metafield-single_line_text_field-array {list-style: none;}"
       ],
       "settings": {
         "enable_sticky_info": true,
