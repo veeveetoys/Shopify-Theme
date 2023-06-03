@@ -262,9 +262,7 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  
-	{% capture magic_headers %}{% include 'magic360.headers' %}{% endcapture %}{% unless magic_headers contains 'Liquid error' %}{{magic_headers}}{% endunless %}
-</head>
+  </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
