@@ -52,11 +52,10 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "repeater": "{{ product.metafields.product.condition.value }}",
           "settings": {
             "heading": "Condition",
             "icon": "clipboard",
-            "content": "{{ block.repeater.excellent | metafield_tag }}",
+            "content": "{{ product.metafields.custom.excellent | metafield_tag }}",
             "page": ""
           }
         },
@@ -75,7 +74,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "{{ product.metafields.custom.excellent | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },
