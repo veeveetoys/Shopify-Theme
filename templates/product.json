@@ -52,10 +52,11 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "repeater": "{{ product.metafields.product.condition.value }}",
           "settings": {
             "heading": "Condition",
             "icon": "clipboard",
-            "content": "",
+            "content": "{{ block.repeater.excellent | metafield_tag }}",
             "page": ""
           }
         },
