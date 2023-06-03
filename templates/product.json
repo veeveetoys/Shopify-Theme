@@ -99,6 +99,9 @@
         "collapsible-row-1",
         "share"
       ],
+      "custom_css": [
+        ".rte li {list-style: none;"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
