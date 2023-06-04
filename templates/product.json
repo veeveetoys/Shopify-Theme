@@ -15,6 +15,12 @@
           "settings": {
           }
         },
+        "d77475e3-c9d7-4ad6-b2f8-914641d9c2b9": {
+          "type": "sku",
+          "settings": {
+            "text_style": "body"
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -77,38 +83,48 @@
             "page": ""
           }
         },
-        "4686ecde-0673-494f-be36-1686b7f521da": {
-          "type": "complementary",
+        "8db56900-af2f-4582-b55f-c52a173f45a4": {
+          "type": "collapsible_tab",
           "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": false,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
+            "heading": "Specifications",
+            "icon": "eye",
+            "content": "<p>{{ product.vendor }}<\/p>",
+            "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Postage",
             "icon": "truck",
-            "content": "",
+            "content": "<p>Standard rates for postage<\/p><p><\/p>",
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "4686ecde-0673-494f-be36-1686b7f521da": {
+          "type": "complementary",
           "settings": {
-            "share_label": "Share"
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": true,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 1,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "895ef88b-88c1-4ab8-89cd-6223547129fe": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign current_variant = product.selected_or_first_available_variant -%}\n<span>SKU: {{ current_variant.sku }}<\/span>"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "d77475e3-c9d7-4ad6-b2f8-914641d9c2b9",
         "caption",
         "price",
         "1e897234-9060-48fc-a5ea-acb0bc4c151c",
@@ -118,9 +134,10 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-2",
-        "4686ecde-0673-494f-be36-1686b7f521da",
+        "8db56900-af2f-4582-b55f-c52a173f45a4",
         "collapsible-row-1",
-        "share"
+        "4686ecde-0673-494f-be36-1686b7f521da",
+        "895ef88b-88c1-4ab8-89cd-6223547129fe"
       ],
       "custom_css": [
         ".metafield-single_line_text_field-array {list-style: none;}"
