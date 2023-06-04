@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Specifications",
             "icon": "eye",
-            "content": "<p>{{ product.vendor }}<\/p>",
+            "content": "<p>{{ product.vendor }}{{ block.settings.page.title }}<\/p>",
             "page": ""
           }
         },
